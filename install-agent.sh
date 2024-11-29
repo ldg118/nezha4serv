@@ -11,7 +11,6 @@ download_agent()
     _version=v0.20.5
         echo 'error: Download failed! Please check your network or try again.'
        
-        _version=v0.20.5
     fi
     return 0
 }
