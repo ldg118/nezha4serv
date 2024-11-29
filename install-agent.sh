@@ -8,7 +8,7 @@ download_agent()
 {
     DOWNLOAD_LINK="https://github.com/ldg118/nezha4serv00/raw/refs/heads/main/nezha-agent_freebsd_amd64.zip"
     if ! wget -qO "$ZIP_FILE" "$DOWNLOAD_LINK"; then
-    _version=v0.20.5
+
         echo 'error: Download failed! Please check your network or try again.'
        
     fi
